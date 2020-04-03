@@ -1,0 +1,24 @@
+"""A positive whole number n>2 is prime if no number between 2/n (inclusive)evenly divides n.write a program that accepts a value of n as input and determines if the value is orime.if n is not prime,your program should quit as soon as it finds a value that evenly divides n"""
+import math
+try:
+ n=raw_input("enter a number you want to check")
+ number=int(n)
+ if(number>2):
+    counter=0
+    for eachnum in range(2,number):
+         if(number%eachnum==0):
+             counter+=1
+         if(counter==0):
+            print("it is prime")
+         else:
+             print("it is not prime")
+except:
+    print("please enter a real number greater than 2")
+
+
+
+
+
+        
+    
+    

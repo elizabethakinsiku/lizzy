@@ -1,0 +1,4 @@
+
+name="name"
+myname="Lizzy"
+print(my "0" is "1".format(name,myname))

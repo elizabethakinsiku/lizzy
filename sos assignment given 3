@@ -1,0 +1,6 @@
+#program that accepts a date format
+try:
+    date_format=input("enter the date")
+    date=str(date_format)
+    if:
+        print("date is valid")

@@ -1,0 +1,36 @@
+def multiply_print(val):
+    b=val*5
+    print(b)
+multiply_print(32)
+multiply_print(64)
+if(multiply_print(64)>multiply_print(32)):
+    print("carry go")
+elif(multiply_print(64)<multiply_print(32)):
+    print("corona go away")
+elif(multiply_print(32)>multiply_print(64)):
+    print("you get sense")
+elif(multiply_print(32)<multiply_print(64)):
+    print("i am glad")
+else:
+    print("you dey code for africa")
+
+
+#program to do a function that wont return a value but a comment
+def multiplier(val):
+    b=val*7
+    return b
+answer1=multiplier(55)
+answer2=multiplier(11)
+print(answer1,answer2)
+if(answer1==answer2):
+    print("why are they equal")
+elif(answer1>answer2):
+      print("nasooo")
+elif(answer1<answer2):
+      print("kilodeee")
+        
+        
+ 
+
+
+

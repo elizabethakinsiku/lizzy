@@ -1,0 +1,36 @@
+#Programming To Determine The Roots Of An Equation
+a=2
+b=10
+c=5
+import math
+root1 =(-b+math.sqrt(b**2-4*a*c))/2*a
+root2=(-b-math.sqrt(b**2-4*a*c))/2*a
+print ("the answer is : ",root1)
+print ("the answer is : ",root2)
+
+#Programme To Test
+def multiplier (val):
+    b=val*0.9
+    return b
+answer_1=multiplier (42)
+answer_2=multiplier (64)
+
+#Programme To Show Output
+def multiply_print (val):
+    b=val*3
+    print(b)
+multiply_print(32)
+multiply_print(64)
+
+
+#Identation
+a=20
+b=30
+if (a==b):
+    print("ooin")
+elif (a>b):
+    print("ooin demo baba")
+elif (b>a):
+    print("you are doing well")
+else:
+    print("no baba")

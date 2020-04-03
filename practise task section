@@ -1,0 +1,35 @@
+#PROGRAM TO KNOW IDENTITY
+#verifying
+identity=input("enter it")
+my_identity=int(identity)
+if(my_identity==21):
+    print("your name is akinsiku elizabeth,and mcb/17/4650 is your matric number")
+elif(my_identity<21):
+    print("i dont know your name jor")
+elif(my_identity>21):
+    print("naso you old reach ni")
+
+    
+#program to perform four arithmetic operations
+import math
+age1=input("enter a number")
+a=int(age1)
+age2=input("enter the second number")
+b=int(age2)
+age3=input("enter the third number")
+c=int(age3)
+age4=input("enter the forth number")
+d=int(age4)
+age5=input("enter the fifth number")
+e=int(age5)
+calculation=a+b-c*d/e
+print(calculation)
+
+#name,score and matriculation number of some good students in microbiology(FUTA)
+deptDict={"mcb/17/4650":97,"mcb/17/4651":89,"mcb/17/4666":99,"mcb/17/4725":95}
+for key in deptDict:
+    print key,deptDict[key]
+deptDict={"mcb/17/4650":akinsiku ,"mcb/17/4651":akintunde ,"mcb/17/4666":baiyere ,"mcb/17/4725":udoh}
+for key in deptDict:
+    print key,deptDict[key]
+
